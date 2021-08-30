@@ -44,31 +44,31 @@ P, V
 
 세마포어를 표현하는 간단한 Pseudo code
 
-class Semaphore {
+ class Semaphore {
 
-  int value; // 동시에 접근 가능한 프로세스의 수를 뜻함
+    int value; // 동시에 접근 가능한 프로세스의 수를 뜻함
 
-  void acquire() {
+    void acquire() {
 
-    value--;
+      value--;
 
-    if(value < 0)
-      add this process or thread to list;
-      block;
+      if(value < 0)
+        add this process or thread to list;
+        block;
 
-  }
+    }
 
-  void release() {
+    void release() {
 
-    value++;
+      value++;
 
-    if(value <= 0)
-      remove a process P from list;
-      wakeup P;
+      if(value <= 0)
+        remove a process P from list;
+        wakeup P;
 
-  }
+    }
 
-}
+ }
 
 세마포어의 사용 목적
 1. 한 번에 접근가능한 프로세스 수를 제한함으로써 동기화 구현 (Mutual Exclusion)
