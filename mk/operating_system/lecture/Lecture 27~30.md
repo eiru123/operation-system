@@ -87,9 +87,11 @@ SSTF(Shortest Seek Time First)
 
 SCAN
 - 헤드가 디스크 전체를 계속 훑음
+- 
 ![image](https://user-images.githubusercontent.com/32284527/137626131-a2168361-c5b6-45c1-ab73-8162534c1fdb.png)
 
 Circular SCAN(C-SCAN), LOOK
+
 ![image](https://user-images.githubusercontent.com/32284527/137626152-dddb62d0-700d-49ce-9c7b-be5f9dc4ae09.png)
 
 
