@@ -75,6 +75,7 @@ Linked, MultiLevel, Combined
 
 FCFS
 - 선입선출
+
 ![image](https://user-images.githubusercontent.com/32284527/137626079-7aec0f55-db8f-4877-beb5-580ed2b4a870.png)
 
 
@@ -87,7 +88,7 @@ SSTF(Shortest Seek Time First)
 
 SCAN
 - 헤드가 디스크 전체를 계속 훑음
-- 
+
 ![image](https://user-images.githubusercontent.com/32284527/137626131-a2168361-c5b6-45c1-ab73-8162534c1fdb.png)
 
 Circular SCAN(C-SCAN), LOOK
